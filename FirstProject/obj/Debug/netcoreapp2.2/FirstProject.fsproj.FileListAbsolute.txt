@@ -1,0 +1,10 @@
+/Users/user/Documents/Github/Fsharp/DerekBanas/FirstProject/bin/Debug/netcoreapp2.2/FirstProject.deps.json
+/Users/user/Documents/Github/Fsharp/DerekBanas/FirstProject/bin/Debug/netcoreapp2.2/FirstProject.runtimeconfig.json
+/Users/user/Documents/Github/Fsharp/DerekBanas/FirstProject/bin/Debug/netcoreapp2.2/FirstProject.runtimeconfig.dev.json
+/Users/user/Documents/Github/Fsharp/DerekBanas/FirstProject/bin/Debug/netcoreapp2.2/FirstProject.dll
+/Users/user/Documents/Github/Fsharp/DerekBanas/FirstProject/bin/Debug/netcoreapp2.2/FirstProject.pdb
+/Users/user/Documents/Github/Fsharp/DerekBanas/FirstProject/obj/Debug/netcoreapp2.2/FirstProject.fsprojAssemblyReference.cache
+/Users/user/Documents/Github/Fsharp/DerekBanas/FirstProject/obj/Debug/netcoreapp2.2/FirstProject.AssemblyInfoInputs.cache
+/Users/user/Documents/Github/Fsharp/DerekBanas/FirstProject/obj/Debug/netcoreapp2.2/FirstProject.AssemblyInfo.fs
+/Users/user/Documents/Github/Fsharp/DerekBanas/FirstProject/obj/Debug/netcoreapp2.2/FirstProject.dll
+/Users/user/Documents/Github/Fsharp/DerekBanas/FirstProject/obj/Debug/netcoreapp2.2/FirstProject.pdb
