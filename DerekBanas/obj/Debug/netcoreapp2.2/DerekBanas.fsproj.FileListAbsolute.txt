@@ -1,0 +1,3 @@
+/Users/user/Documents/Github/fsharp/DerekBanas/obj/Debug/netcoreapp2.2/DerekBanas.fsprojAssemblyReference.cache
+/Users/user/Documents/Github/fsharp/DerekBanas/obj/Debug/netcoreapp2.2/DerekBanas.AssemblyInfoInputs.cache
+/Users/user/Documents/Github/fsharp/DerekBanas/obj/Debug/netcoreapp2.2/DerekBanas.AssemblyInfo.fs
