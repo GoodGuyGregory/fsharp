@@ -5,6 +5,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="fsharptut.fs" />
-    <Compile Include="functions.fx" />
+    <Compile Include="functions.fs" />
   </ItemGroup>
 </Project>
