@@ -14,3 +14,7 @@ Terminal: make your project directory with the following commands
 change directory into the project and run the default build with 
 
 `dotnet run`
+
+### Simple Programs 
+
+Simple Programs can be coded into the text editor and if **VS-Code** is installed and configured correcly run with the following command upon highlighting all code `alt+enter`
