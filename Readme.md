@@ -18,3 +18,12 @@ change directory into the project and run the default build with
 ### Simple Programs 
 
 Simple Programs can be coded into the text editor and if **VS-Code** is installed and configured correcly run with the following command upon highlighting all code `alt+enter`
+
+**Recursive Functions**
+
+Syntax:
+
+```fsharp
+// Recursive function def:
+let rec function-name parameter-list = recursive-function-body
+```
