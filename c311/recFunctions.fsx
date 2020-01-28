@@ -44,4 +44,27 @@ let rec vecmul L x =
     if L = [] then [] else x * L.Head :: (vecmul L.Tail x)
 
 let rec matmul M x =
-    if M = [] then [] else (vecmul M.Head x) :: ()
+    if M = []
+    then []
+    else (vecmul M.Head x) :: 
+
+// Pattern Matching: Exercises
+
+let rec identityPattern L =
+    match L with
+    | [] -> []
+    | h :: t -> h :: identity t
+
+let headPattern L =
+    match L with
+    | [] -> []
+    | h :: t -> h
+
+let rec count L =
+    match L with
+    | [] -> 0
+    | h::t -> if h then 1 + count(t) else count t
+
+let rec last (L:'a list) =
+    if (L.Tail = []) then L.Head
+    else last L.Tail
