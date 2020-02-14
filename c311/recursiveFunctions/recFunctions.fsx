@@ -3,7 +3,7 @@ let rec fib n =
 
 // List Operations: are all Recursive to avoid side effects- which are changing and reassigning values to variables
 let rec summation (x: int list) =
-    // Base case
+    // Base case:
     if (x.IsEmpty) then
         0
     // Recursive Case:
