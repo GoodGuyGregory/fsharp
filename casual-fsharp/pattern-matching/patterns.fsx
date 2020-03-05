@@ -33,6 +33,7 @@ let tryFirst2 (items: string list) =
     | [] -> Nowt
     | f :: _ -> Summat f
 
+// recreates a type of x with the Type Matched
 let firstOrDefault2 dflt (items: string list) =
     match tryFirst2 items with
     | Summat x -> x

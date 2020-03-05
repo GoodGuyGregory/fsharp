@@ -1,0 +1,12 @@
+type AST =
+    | Const of int
+    | Plus of AST * AST
+    | Minus of AST * AST
+
+let rec valN exp =
+    match exp with
+    | Const n -> Const n
+    | Plus(Const v1, Const v2) -> Const(v1, v2)
+    | Plus(e1, e2) -> valN (Plus(valN e1, valN e2))
+    | Times(Const v1, Const v2) -> Const(v1, v2)
+    | Times(e1, e2) -> valN (Timess(valN e1, valN e2))
