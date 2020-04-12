@@ -11,6 +11,8 @@ let rec valN exp =
     | Times(Const v1, Const v2) -> Const(v1, v2)
     | Times(e1, e2) -> valN (Timess(valN e1, valN e2))
 
+
+// Language 3 Function
 let x = 1 in f = (fun n)
 
 let f5 = (Apply(Var "f", Const 5))
