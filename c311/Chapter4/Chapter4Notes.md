@@ -210,3 +210,42 @@ t1, t2 – Attempt lock on common object.
 * t1 claims lock and executes *Wait();*
 * t2 claims lock, *Pulse()* not executed.
 * t1 never completes. 
+
+### Video 3 Threads Continued
+
+**Task Parallel Library**
+
+* Futures: promises in functional code base. Futures in TPL support asychronous function control. Futures are functions without side-effects. so that the resulting operation can then be applied to the next step in the program thread chains.
+
+TPL allows for the Blocking and returning of the result with `t.Result`. The removes Pulse handlers and other intricate Thread calls with an awesome easy to use abtraction layer.
+
+```csharp
+using System;
+using System.Threading.Tasks;
+public class Program
+{
+ private static int Sum(int n)
+ {
+ int sum = 0;
+ for (; n > 0; n--)
+ sum += n;
+ return sum;
+ }
+ public static void Main()
+ {
+ Task<int> t = new Task<int>(( ) => Sum( 1000 ) );
+ t.Start();
+ Console.WriteLine("The sum is: " + t.Result); // Block, Result is int value
+ }
+} 
+```
+
+**Parallel.For Loops**
+
+Parallel For loops tun each of the counter simultaniously three times.
+
+```c#
+Parallel.For(0, 3, i => {
+Sum( A[i] );
+}); 
+```
