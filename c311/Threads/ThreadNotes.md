@@ -167,7 +167,9 @@ Lock prevents the use of the Run method
 using System; using System.Threading;
  class ST {
  public static void Main() {
- new Racer(1); new Racer(2); new Racer(3);
+ new Racer(1);
+ new Racer(2);
+ new Racer(3);
  }
  }
  class Racer {
